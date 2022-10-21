@@ -12,7 +12,7 @@ User.init(
     id: {
         // datatypes. comes from sequelize library
         type: DataTypes.INTEGER,
-        allowNull: falese,
+        allowNull: false,
         primaryKey: true,
         autoIncrement: true,
     },
